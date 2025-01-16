@@ -1,0 +1,7 @@
+node_modules/
+config.js
+.env
+model/node_module/
+server/node_module/
+client/funny-fact-vue/node_module/
+
