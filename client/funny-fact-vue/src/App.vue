@@ -33,7 +33,10 @@
     >
       Fetch Articles
     </button>
-    <div v-if="loading" class="text-center text-green-700">
+    <div
+      v-if="loading"
+      class="flex flex-col items-center justify-center text-green-700"
+    >
       <div class="spinner"></div>
       Loading...
     </div>
